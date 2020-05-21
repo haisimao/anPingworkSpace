@@ -1,0 +1,64 @@
+2020-04-15 10:59:44 [twisted] CRITICAL: Unhandled error in Deferred:
+2020-04-15 10:59:44 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "g:\env\scripenv\lib\site-packages\twisted\internet\defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "g:\env\scripenv\lib\site-packages\scrapy\crawler.py", line 79, in crawl
+    self.spider = self._create_spider(*args, **kwargs)
+  File "g:\env\scripenv\lib\site-packages\scrapy\crawler.py", line 102, in _create_spider
+    return self.spidercls.from_crawler(self, *args, **kwargs)
+  File "g:\env\scripenv\lib\site-packages\scrapy\spiders\crawl.py", line 100, in from_crawler
+    spider = super(CrawlSpider, cls).from_crawler(crawler, *args, **kwargs)
+  File "g:\env\scripenv\lib\site-packages\scrapy\spiders\__init__.py", line 51, in from_crawler
+    spider = cls(*args, **kwargs)
+  File "G:\CODE_b\IntegrationSpider\IntegrationSpider\spiders\supplyResult.py", line 42, in __init__
+    self.filePage = open(pathPage, 'w+')
+FileNotFoundError: [Errno 2] No such file or directory: 'G:\\Logs/DataSupplyResultPage.txt'
+2020-04-15 11:00:35 [twisted] CRITICAL: Unhandled error in Deferred:
+2020-04-15 11:00:35 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "g:\env\scripenv\lib\site-packages\twisted\internet\defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "g:\env\scripenv\lib\site-packages\scrapy\crawler.py", line 79, in crawl
+    self.spider = self._create_spider(*args, **kwargs)
+  File "g:\env\scripenv\lib\site-packages\scrapy\crawler.py", line 102, in _create_spider
+    return self.spidercls.from_crawler(self, *args, **kwargs)
+  File "g:\env\scripenv\lib\site-packages\scrapy\spiders\crawl.py", line 100, in from_crawler
+    spider = super(CrawlSpider, cls).from_crawler(crawler, *args, **kwargs)
+  File "g:\env\scripenv\lib\site-packages\scrapy\spiders\__init__.py", line 51, in from_crawler
+    spider = cls(*args, **kwargs)
+  File "G:\CODE_b\IntegrationSpider\IntegrationSpider\spiders\supplyResult.py", line 42, in __init__
+    self.filePage = open(pathPage, 'w+')
+FileNotFoundError: [Errno 2] No such file or directory: 'G:\\Logs/DataSupplyResultPage.txt'
+2020-04-15 11:01:29 [twisted] CRITICAL: Unhandled error in Deferred:
+2020-04-15 11:01:29 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "G:\env\scripenv\lib\site-packages\twisted\internet\defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "G:\env\scripenv\lib\site-packages\scrapy\crawler.py", line 79, in crawl
+    self.spider = self._create_spider(*args, **kwargs)
+  File "G:\env\scripenv\lib\site-packages\scrapy\crawler.py", line 102, in _create_spider
+    return self.spidercls.from_crawler(self, *args, **kwargs)
+  File "G:\env\scripenv\lib\site-packages\scrapy\spiders\crawl.py", line 100, in from_crawler
+    spider = super(CrawlSpider, cls).from_crawler(crawler, *args, **kwargs)
+  File "G:\env\scripenv\lib\site-packages\scrapy\spiders\__init__.py", line 51, in from_crawler
+    spider = cls(*args, **kwargs)
+  File "G:\CODE_b\IntegrationSpider\IntegrationSpider\spiders\supplyResult.py", line 42, in __init__
+    self.filePage = open(pathPage, 'w+')
+FileNotFoundError: [Errno 2] No such file or directory: 'G:\\Logs/DataSupplyResultPage.txt'
+2020-04-15 11:01:41 [twisted] CRITICAL: Unhandled error in Deferred:
+2020-04-15 11:01:41 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "G:\env\scripenv\lib\site-packages\twisted\internet\defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "G:\env\scripenv\lib\site-packages\scrapy\crawler.py", line 79, in crawl
+    self.spider = self._create_spider(*args, **kwargs)
+  File "G:\env\scripenv\lib\site-packages\scrapy\crawler.py", line 102, in _create_spider
+    return self.spidercls.from_crawler(self, *args, **kwargs)
+  File "G:\env\scripenv\lib\site-packages\scrapy\spiders\crawl.py", line 100, in from_crawler
+    spider = super(CrawlSpider, cls).from_crawler(crawler, *args, **kwargs)
+  File "G:\env\scripenv\lib\site-packages\scrapy\spiders\__init__.py", line 51, in from_crawler
+    spider = cls(*args, **kwargs)
+  File "G:\CODE_b\IntegrationSpider\IntegrationSpider\spiders\supplyResult.py", line 42, in __init__
+    self.filePage = open(pathPage, 'w+')
+FileNotFoundError: [Errno 2] No such file or directory: 'G:\\Logs/DataSupplyResultPage.txt'

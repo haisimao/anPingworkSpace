@@ -1,0 +1,1 @@
+运行路径：.\script\LandChinaBot-crgg2011gt\main.py

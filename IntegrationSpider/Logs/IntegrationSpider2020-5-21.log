@@ -1,0 +1,525 @@
+2020-05-21 15:16:20 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: IntegrationSpider)
+2020-05-21 15:16:20 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:04:45) [MSC v.1900 32 bit (Intel)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Windows-7-6.1.7601-SP1
+2020-05-21 15:16:20 [scrapy.crawler] INFO: Overridden settings: {'AUTOTHROTTLE_MAX_DELAY': 10, 'AUTOTHROTTLE_START_DELAY': 2, 'BOT_NAME': 'IntegrationSpider', 'CLOSESPIDER_TIMEOUT': 180000, 'CONCURRENT_REQUESTS': 2, 'CONCURRENT_REQUESTS_PER_DOMAIN': 4, 'CONCURRENT_REQUESTS_PER_IP': 4, 'COOKIES_DEBUG': True, 'DNS_TIMEOUT': 30, 'DOWNLOAD_DELAY': 1, 'DOWNLOAD_TIMEOUT': 120, 'LOG_FILE': 'G:\\PingAnWorkSpace\\IntegrationSpider/Logs/IntegrationSpider2020-5-21.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'IntegrationSpider.spiders', 'SPIDER_MODULES': ['IntegrationSpider.spiders']}
+2020-05-21 15:16:20 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.closespider.CloseSpider',
+ 'scrapy.extensions.logstats.LogStats']
+2020-05-21 15:16:22 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'IntegrationSpider.middlewares.IntegrationspiderDownloaderMiddleware',
+ 'IntegrationSpider.middlewares.DLMiddleware',
+ 'IntegrationSpider.middlewares.DownLoadsMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-05-21 15:16:22 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-05-21 15:16:22 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2020-05-21 15:16:22 [scrapy.core.engine] INFO: Spider opened
+2020-05-21 15:16:23 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-05-21 15:16:23 [longyanTransformResult] INFO: Spider opened: longyanTransformResult
+2020-05-21 15:16:33 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:34 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:36 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:36 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:36 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:36 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:36 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:38 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:38 [longyanTransformResult] ERROR: 详情页数据解析失败, 请求:https://www.lyggzy.com.cn/lyztb/InfoDetail/?InfoID=05f8321b-6431-497f-ad1f-0cbd7dae2f74&CategoryNum=084001, 错误: list index out of range
+Traceback (most recent call last):
+  File "G:\PingAnWorkSpace\IntegrationSpider\IntegrationSpider\spiders\longyanTransformResult.py", line 278, in parse_detail
+    for item in ['地块编号' + _ for _ in re.findall('一([\s\S]*)二、', items)[0].split('地块编号')[1:]]:
+IndexError: list index out of range
+
+2020-05-21 15:16:40 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:41 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:41 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:41 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:41 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:44 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:45 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:45 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:45 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:45 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:45 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:48 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:48 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:48 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:48 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:49 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:49 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:49 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:50 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:51 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:51 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:52 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:53 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:53 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:53 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:54 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:55 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:55 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:55 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:56 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:57 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:16:58 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:00 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:01 [py.warnings] WARNING: G:\env\scripenv\lib\site-packages\bs4\__init__.py:181: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 14 of the file G:/PingAnWorkSpace/IntegrationSpider/IntegrationSpider/manage.py. To get rid of this warning, change code that looks like this:
+
+ BeautifulSoup(YOUR_MARKUP})
+
+to this:
+
+ BeautifulSoup(YOUR_MARKUP, "lxml")
+
+  markup_type=markup_type))
+
+2020-05-21 15:17:01 [longyanTransformResult] ERROR: 详情页数据解析失败, 请求:https://www.lyggzy.com.cn/lyztb/InfoDetail/?InfoID=c1ec9c61-16af-4dbb-bee9-177989d5f9c3&CategoryNum=084001, 错误: 'NavigableString' object has no attribute 'find_all'
+Traceback (most recent call last):
+  File "G:\PingAnWorkSpace\IntegrationSpider\IntegrationSpider\spiders\longyanTransformResult.py", line 200, in parse_detail
+    tdData = htmlTable.tableTrTdChangeToList(table)
+  File "G:\PingAnWorkSpace\IntegrationSpider\SpiderTools\tableAnalysis.py", line 217, in tableTrTdChangeToList
+    df0[1] = df0[0].apply(lambda e: len(e.find_all('td')))
+  File "G:\env\scripenv\lib\site-packages\pandas\core\series.py", line 3192, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/src\inference.pyx", line 1472, in pandas._libs.lib.map_infer
+  File "G:\PingAnWorkSpace\IntegrationSpider\SpiderTools\tableAnalysis.py", line 217, in <lambda>
+    df0[1] = df0[0].apply(lambda e: len(e.find_all('td')))
+  File "G:\env\scripenv\lib\site-packages\bs4\element.py", line 737, in __getattr__
+    self.__class__.__name__, attr))
+AttributeError: 'NavigableString' object has no attribute 'find_all'
+
+2020-05-21 15:17:02 [longyanTransformResult] ERROR: 详情页数据解析失败, 请求:https://www.lyggzy.com.cn/lyztb/InfoDetail/?InfoID=307426c7-544c-4dbf-a4c2-334451f819f5&CategoryNum=084001, 错误: 'NavigableString' object has no attribute 'find_all'
+Traceback (most recent call last):
+  File "G:\PingAnWorkSpace\IntegrationSpider\IntegrationSpider\spiders\longyanTransformResult.py", line 200, in parse_detail
+    tdData = htmlTable.tableTrTdChangeToList(table)
+  File "G:\PingAnWorkSpace\IntegrationSpider\SpiderTools\tableAnalysis.py", line 217, in tableTrTdChangeToList
+    df0[1] = df0[0].apply(lambda e: len(e.find_all('td')))
+  File "G:\env\scripenv\lib\site-packages\pandas\core\series.py", line 3192, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/src\inference.pyx", line 1472, in pandas._libs.lib.map_infer
+  File "G:\PingAnWorkSpace\IntegrationSpider\SpiderTools\tableAnalysis.py", line 217, in <lambda>
+    df0[1] = df0[0].apply(lambda e: len(e.find_all('td')))
+  File "G:\env\scripenv\lib\site-packages\bs4\element.py", line 737, in __getattr__
+    self.__class__.__name__, attr))
+AttributeError: 'NavigableString' object has no attribute 'find_all'
+
+2020-05-21 15:17:04 [longyanTransformResult] ERROR: 详情页数据解析失败, 请求:https://www.lyggzy.com.cn/lyztb/InfoDetail/?InfoID=3c28d23d-096e-4abd-848a-c948a82477b2&CategoryNum=084001, 错误: 'NavigableString' object has no attribute 'find_all'
+Traceback (most recent call last):
+  File "G:\PingAnWorkSpace\IntegrationSpider\IntegrationSpider\spiders\longyanTransformResult.py", line 200, in parse_detail
+    tdData = htmlTable.tableTrTdChangeToList(table)
+  File "G:\PingAnWorkSpace\IntegrationSpider\SpiderTools\tableAnalysis.py", line 217, in tableTrTdChangeToList
+    df0[1] = df0[0].apply(lambda e: len(e.find_all('td')))
+  File "G:\env\scripenv\lib\site-packages\pandas\core\series.py", line 3192, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/src\inference.pyx", line 1472, in pandas._libs.lib.map_infer
+  File "G:\PingAnWorkSpace\IntegrationSpider\SpiderTools\tableAnalysis.py", line 217, in <lambda>
+    df0[1] = df0[0].apply(lambda e: len(e.find_all('td')))
+  File "G:\env\scripenv\lib\site-packages\bs4\element.py", line 737, in __getattr__
+    self.__class__.__name__, attr))
+AttributeError: 'NavigableString' object has no attribute 'find_all'
+
+2020-05-21 15:17:05 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:06 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:07 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:08 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:10 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:11 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:12 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:12 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:13 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:15 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:15 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:15 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:15 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:15 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:15 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:16 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:18 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:19 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:19 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:20 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:21 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:21 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:23 [scrapy.extensions.logstats] INFO: Crawled 44 pages (at 44 pages/min), scraped 0 items (at 0 items/min)
+2020-05-21 15:17:23 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:23 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:23 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:25 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:25 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:25 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:25 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:27 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:27 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:28 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:28 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:28 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:30 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:30 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:31 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:32 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:32 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:32 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:34 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:35 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:35 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:36 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:36 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:38 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:39 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:40 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:41 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:41 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:41 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:42 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:43 [longyanTransformResult] ERROR: 详情页数据解析失败, 请求:https://www.lyggzy.com.cn/lyztb/InfoDetail/?InfoID=16dfea00-d8c8-402e-bbcd-8bada5cd88cf&CategoryNum=084001, 错误: list index out of range
+Traceback (most recent call last):
+  File "G:\PingAnWorkSpace\IntegrationSpider\IntegrationSpider\spiders\longyanTransformResult.py", line 278, in parse_detail
+    for item in ['地块编号' + _ for _ in re.findall('一([\s\S]*)二、', items)[0].split('地块编号')[1:]]:
+IndexError: list index out of range
+
+2020-05-21 15:17:45 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:46 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:51 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:52 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:53 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:54 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:56 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:56 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:56 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:56 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:56 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:57 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:57 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:57 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:17:59 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:00 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:00 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:00 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:00 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:01 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:05 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:05 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:05 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:05 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:05 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:06 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:06 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:06 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:06 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:06 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:06 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:06 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:09 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:09 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:10 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:11 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:12 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:12 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:12 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:12 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:13 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:13 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:13 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:13 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:16 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:16 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:16 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:16 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:17 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:18 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:20 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:20 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:20 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:22 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:22 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:18:23 [scrapy.extensions.logstats] INFO: Crawled 92 pages (at 48 pages/min), scraped 0 items (at 0 items/min)
+2020-05-21 15:22:30 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: IntegrationSpider)
+2020-05-21 15:22:30 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:04:45) [MSC v.1900 32 bit (Intel)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Windows-7-6.1.7601-SP1
+2020-05-21 15:22:30 [scrapy.crawler] INFO: Overridden settings: {'AUTOTHROTTLE_MAX_DELAY': 10, 'AUTOTHROTTLE_START_DELAY': 2, 'BOT_NAME': 'IntegrationSpider', 'CLOSESPIDER_TIMEOUT': 180000, 'CONCURRENT_REQUESTS': 2, 'CONCURRENT_REQUESTS_PER_DOMAIN': 4, 'CONCURRENT_REQUESTS_PER_IP': 4, 'COOKIES_DEBUG': True, 'DNS_TIMEOUT': 30, 'DOWNLOAD_DELAY': 1, 'DOWNLOAD_TIMEOUT': 120, 'LOG_FILE': 'G:\\PingAnWorkSpace\\IntegrationSpider/Logs/IntegrationSpider2020-5-21.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'IntegrationSpider.spiders', 'SPIDER_MODULES': ['IntegrationSpider.spiders']}
+2020-05-21 15:22:31 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.closespider.CloseSpider',
+ 'scrapy.extensions.logstats.LogStats']
+2020-05-21 15:22:31 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'IntegrationSpider.middlewares.IntegrationspiderDownloaderMiddleware',
+ 'IntegrationSpider.middlewares.DLMiddleware',
+ 'IntegrationSpider.middlewares.DownLoadsMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-05-21 15:22:31 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-05-21 15:22:31 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2020-05-21 15:22:31 [scrapy.core.engine] INFO: Spider opened
+2020-05-21 15:22:31 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-05-21 15:22:31 [longyanTransformResult] INFO: Spider opened: longyanTransformResult
+2020-05-21 15:22:35 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:22:37 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:22:38 [py.warnings] WARNING: G:\env\scripenv\lib\site-packages\bs4\__init__.py:181: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 14 of the file G:/PingAnWorkSpace/IntegrationSpider/IntegrationSpider/manage.py. To get rid of this warning, change code that looks like this:
+
+ BeautifulSoup(YOUR_MARKUP})
+
+to this:
+
+ BeautifulSoup(YOUR_MARKUP, "lxml")
+
+  markup_type=markup_type))
+
+2020-05-21 15:22:38 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:22:39 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:22:39 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:22:41 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:22:42 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:22:43 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:22:45 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:22:46 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:22:47 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:22:50 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:22:50 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:22:51 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:22:52 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:22:54 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:22:54 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:22:54 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:22:54 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:22:54 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:22:54 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:22:55 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:22:57 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:22:57 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:00 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:00 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:01 [longyanTransformResult] ERROR: 详情页数据解析失败, 请求:https://www.lyggzy.com.cn/lyztb/InfoDetail/?InfoID=05f8321b-6431-497f-ad1f-0cbd7dae2f74&CategoryNum=084001, 错误: list index out of range
+Traceback (most recent call last):
+  File "G:\PingAnWorkSpace\IntegrationSpider\IntegrationSpider\spiders\longyanTransformResult.py", line 278, in parse_detail
+    for item in ['地块编号' + _ for _ in re.findall('一([\s\S]*)二、', items)[0].split('地块编号')[1:]]:
+IndexError: list index out of range
+
+2020-05-21 15:23:03 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:05 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:05 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:05 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:05 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:06 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:06 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:06 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:06 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:07 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:07 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:08 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:08 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:09 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:09 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:09 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:09 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:10 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:11 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:13 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:13 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:14 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:15 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:15 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:15 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:15 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:15 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:16 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:16 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:16 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:17 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:19 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:19 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:19 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:20 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:21 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:22 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:24 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:25 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:25 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:26 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:26 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:27 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:27 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:28 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:28 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:30 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:31 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:31 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:31 [scrapy.extensions.logstats] INFO: Crawled 50 pages (at 50 pages/min), scraped 0 items (at 0 items/min)
+2020-05-21 15:23:32 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:35 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:35 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:35 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:35 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:38 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:38 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:39 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:39 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:39 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:40 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:41 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:42 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:42 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:42 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:44 [longyanTransformResult] ERROR: 详情页数据解析失败, 请求:https://www.lyggzy.com.cn/lyztb/InfoDetail/?InfoID=16dfea00-d8c8-402e-bbcd-8bada5cd88cf&CategoryNum=084001, 错误: list index out of range
+Traceback (most recent call last):
+  File "G:\PingAnWorkSpace\IntegrationSpider\IntegrationSpider\spiders\longyanTransformResult.py", line 278, in parse_detail
+    for item in ['地块编号' + _ for _ in re.findall('一([\s\S]*)二、', items)[0].split('地块编号')[1:]]:
+IndexError: list index out of range
+
+2020-05-21 15:23:46 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:47 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:52 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:54 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:55 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:57 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:57 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:57 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:57 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:58 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:59 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:59 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:23:59 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:00 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:01 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:01 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:01 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:01 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:02 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:04 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:04 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:04 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:04 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:04 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:04 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:05 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:05 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:05 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:05 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:05 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:06 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:06 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:08 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:09 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:10 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:11 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:11 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:11 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:11 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:13 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:13 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:13 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:13 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:14 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:14 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:14 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:14 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:15 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:16 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:18 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:18 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:19 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:20 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:20 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:21 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:22 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:22 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:22 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:23 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:24 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:24 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:25 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:25 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:27 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:27 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:28 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:28 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:29 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:29 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:30 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:31 [scrapy.extensions.logstats] INFO: Crawled 103 pages (at 53 pages/min), scraped 0 items (at 0 items/min)
+2020-05-21 15:24:34 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:34 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:34 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:34 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:34 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:34 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:34 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:34 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:34 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:34 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:34 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:35 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:35 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:36 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:36 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:38 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:39 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:39 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:39 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:41 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:41 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:41 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:43 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:43 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:45 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:45 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:46 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:46 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:46 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:46 [longyanTransformResult] INFO: 数据获取成功
+2020-05-21 15:24:46 [scrapy.core.engine] INFO: Closing spider (finished)
+2020-05-21 15:24:46 [longyanTransformResult] INFO: 爬虫正常关闭,At2020-05-21 15:24:46.192591
+2020-05-21 15:24:46 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 49904,
+ 'downloader/request_count': 115,
+ 'downloader/request_method_count/GET': 115,
+ 'downloader/response_bytes': 3770732,
+ 'downloader/response_count': 115,
+ 'downloader/response_status_count/200': 115,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 5, 21, 7, 24, 46, 191591),
+ 'log_count/ERROR': 2,
+ 'log_count/INFO': 201,
+ 'log_count/WARNING': 1,
+ 'request_depth_max': 1,
+ 'response_received_count': 115,
+ 'scheduler/dequeued': 115,
+ 'scheduler/dequeued/memory': 115,
+ 'scheduler/enqueued': 115,
+ 'scheduler/enqueued/memory': 115,
+ 'start_time': datetime.datetime(2020, 5, 21, 7, 22, 31, 937912)}
+2020-05-21 15:24:46 [scrapy.core.engine] INFO: Spider closed (finished)

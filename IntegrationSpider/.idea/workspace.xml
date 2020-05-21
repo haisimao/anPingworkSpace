@@ -1,0 +1,1825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="740a270e-625d-44fd-ac70-478f7722dc18" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/IntegrationSpider$utils_.coverage" NAME="utils_ Coverage Results" MODIFIED="1586419782017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IntegrationSpider" />
+    <SUITE FILE_PATH="coverage/IntegrationSpider$detailParse.coverage" NAME="detailParse Coverage Results" MODIFIED="1588759444558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Logs" />
+    <SUITE FILE_PATH="coverage/IntegrationSpider$requestsTest.coverage" NAME="requestsTest Coverage Results" MODIFIED="1589943829097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Logs" />
+    <SUITE FILE_PATH="coverage/IntegrationSpider$loggType.coverage" NAME="loggType Coverage Results" MODIFIED="1587893740916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SpiderTools" />
+    <SUITE FILE_PATH="coverage/IntegrationSpider$spider.coverage" NAME="spider Coverage Results" MODIFIED="1590045748094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IntegrationSpider" />
+    <SUITE FILE_PATH="coverage/IntegrationSpider$tableAnalysis.coverage" NAME="tableAnalysis Coverage Results" MODIFIED="1590045575097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SpiderTools" />
+    <SUITE FILE_PATH="coverage/IntegrationSpider$sign.coverage" NAME="sign Coverage Results" MODIFIED="1589422967709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/sample/python" />
+    <SUITE FILE_PATH="coverage/IntegrationSpider$OCR.coverage" NAME="OCR Coverage Results" MODIFIED="1589938408997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SpiderTools" />
+    <SUITE FILE_PATH="coverage/IntegrationSpider$Tool.coverage" NAME="Tool Coverage Results" MODIFIED="1587974188229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SpiderTools" />
+    <SUITE FILE_PATH="coverage/IntegrationSpider$test.coverage" NAME="test Coverage Results" MODIFIED="1590046377532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Logs" />
+    <SUITE FILE_PATH="coverage/IntegrationSpider$req_for_wordExcelZip.coverage" NAME="req_for_wordExcelZip Coverage Results" MODIFIED="1587349574715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SpiderTools" />
+    <SUITE FILE_PATH="coverage/IntegrationSpider$transferNotice.coverage" NAME="spider Coverage Results" MODIFIED="1586488482123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IntegrationSpider" />
+    <SUITE FILE_PATH="coverage/IntegrationSpider$main.coverage" NAME="main Coverage Results" MODIFIED="1586920695771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IntegrationSpider$settings.coverage" NAME="settings Coverage Results" MODIFIED="1586240397119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IntegrationSpider" />
+    <SUITE FILE_PATH="coverage/IntegrationSpider$JsEncrypt.coverage" NAME="JsEncrypt Coverage Results" MODIFIED="1588036292499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SpiderTools" />
+    <SUITE FILE_PATH="coverage/IntegrationSpider$db.coverage" NAME="db Coverage Results" MODIFIED="1588996682694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IntegrationSpider/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tableAnalysis.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpiderTools/tableAnalysis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="262" column="7" selection-start-line="262" selection-start-column="7" selection-end-line="262" selection-end-column="7" />
+              <folding>
+                <element signature="e#23#32#0" expanded="true" />
+                <element signature="e#470#2275#0" />
+                <element signature="e#5149#6167#0" />
+                <element signature="e#9502#9804#1" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="longyanTransformNotice.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/IntegrationSpider/spiders/longyanTransformNotice.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="642" column="33" lean-forward="true" selection-start-line="642" selection-start-column="33" selection-end-line="642" selection-end-column="33" />
+              <folding>
+                <element signature="e#9523#11359#0" />
+                <element signature="e#14627#18655#0" />
+                <element signature="e#23414#27489#0" />
+                <element signature="e#30730#33279#0" />
+                <element signature="e#33411#34215#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="longyanTransformResult.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IntegrationSpider/spiders/longyanTransformResult.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="427" selection-start-line="427" selection-end-line="427" />
+              <folding>
+                <element signature="e#2943#3138#0" />
+                <element signature="e#3184#3384#0" />
+                <element signature="e#7883#12806#0" />
+                <element signature="e#9249#9365#0" />
+                <element signature="e#9470#12629#0" />
+                <element signature="e#9592#11178#0" />
+                <element signature="e#11346#12282#0" />
+                <element signature="e#9246#14185#0" />
+                <element signature="e#10849#14008#0" />
+                <element signature="e#10971#12557#0" />
+                <element signature="e#12725#13661#0" />
+                <element signature="e#16150#19338#0" />
+                <element signature="e#10629#13885#0" />
+                <element signature="e#10713#12814#0" />
+                <element signature="e#12922#13638#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>深圳市土地使用权出让公告</find>
+      <find>公告期</find>
+      <find>竞价记录</find>
+      <find>深土交告</find>
+      <find>竞得人</find>
+      <find>容积率</find>
+      <find>td</find>
+      <find>tbody</find>
+      <find>报名申请时间</find>
+      <find>人</find>
+      <find>http://zrzyt.shanxi.gov.cn/zwgk/zwgkjbml/tdgl_836/crgg/201904/t20190403_88851.shtml</find>
+      <find>Closing</find>
+      <find>t20180921_79260</find>
+      <find>close_spider</find>
+      <find>self.duplicateUrl &lt; 50 and ZDBH_6</find>
+      <find>if ZDBH_6</find>
+      <find>绿地率</find>
+      <find>电子邮件</find>
+      <find>不动产权登记证号</find>
+      <find>item</find>
+      <find>挂牌出让地块的基本情况和规划指标要求</find>
+      <find>replace</find>
+      <find>standardize</find>
+      <find>宗地编号</find>
+      <find>挂牌开始时间</find>
+      <find>保证金帐户</find>
+      <find>ZDBH_7</find>
+      <find>https://www.lyggzy.com.cn/lyztb/InfoDetail/?InfoID=307426c7-544c-4dbf-a4c2-334451f819f5&amp;CategoryNum=084001</find>
+      <find>备注</find>
+      <find>True</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/SpiderTools/JsEncrypt.py" />
+        <option value="$PROJECT_DIR$/Logs/IntegrationSpider2020-4-28.log" />
+        <option value="$PROJECT_DIR$/IntegrationSpider/spiders/chongQingDealAnnouncement.py" />
+        <option value="$PROJECT_DIR$/IntegrationSpider/spiders/chongQingdealFormula.py" />
+        <option value="$PROJECT_DIR$/IntegrationSpider/spiders/guiZhouTransformNotice.py" />
+        <option value="$PROJECT_DIR$/Logs/IntegrationSpider2020-4-29.log" />
+        <option value="$PROJECT_DIR$/IntegrationSpider/spiders/transferNotice.py" />
+        <option value="$PROJECT_DIR$/Logs/IntegrationSpider2020-5-6.log" />
+        <option value="$PROJECT_DIR$/Logs/detailParse.py" />
+        <option value="$PROJECT_DIR$/IntegrationSpider/spiders/laSaLandNotice.py" />
+        <option value="$PROJECT_DIR$/IntegrationSpider/spiders/laSaResultNotice.py" />
+        <option value="$PROJECT_DIR$/IntegrationSpider/spiders/tianJinTransformResult.py" />
+        <option value="$PROJECT_DIR$/Logs/IntegrationSpider2020-5-8.log" />
+        <option value="$PROJECT_DIR$/SpiderTools/Tool.py" />
+        <option value="$PROJECT_DIR$/IntegrationSpider/spiders/tianJinTransformNotice.py" />
+        <option value="$PROJECT_DIR$/IntegrationSpider/spiders/tianJinLandSupplyPlan.py" />
+        <option value="$PROJECT_DIR$/IntegrationSpider/spiders/chengDuResultNotice.py" />
+        <option value="$PROJECT_DIR$/Logs/IntegrationSpider2020-5-9.log" />
+        <option value="$PROJECT_DIR$/OperateDB/OpRedis.py" />
+        <option value="$PROJECT_DIR$/db.py" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/Logs/IntegrationSpider2020-5-11.log" />
+        <option value="$PROJECT_DIR$/IntegrationSpider/spiders/nanjingLandDetail.py" />
+        <option value="$PROJECT_DIR$/IntegrationSpider/spiders/REDME.txt" />
+        <option value="$PROJECT_DIR$/IntegrationSpider/spiders/shangHaiTransferResult.py" />
+        <option value="$USER_HOME$/Downloads/sample/python/sign.py" />
+        <option value="$PROJECT_DIR$/IntegrationSpider/spiders/README.txt" />
+        <option value="$PROJECT_DIR$/Logs/IntegrationSpider2020-5-15.log" />
+        <option value="$PROJECT_DIR$/IntegrationSpider/spiders/zhengzhouLandTransformResult.py" />
+        <option value="$PROJECT_DIR$/IntegrationSpider/spiders/zhengzhouLandTransformNotice.py" />
+        <option value="$PROJECT_DIR$/IntegrationSpider/spiders/zhengzhouLandAgreementTransformResult.py" />
+        <option value="$PROJECT_DIR$/IntegrationSpider/spiders/zhengzhouAppropriateResult.py" />
+        <option value="$PROJECT_DIR$/IntegrationSpider/middlewares.py" />
+        <option value="$PROJECT_DIR$/IntegrationSpider/settings.py" />
+        <option value="$PROJECT_DIR$/IntegrationSpider/spiders/shanxiTransformNotice.py" />
+        <option value="$PROJECT_DIR$/Logs/IntegrationSpider2020-5-18.log" />
+        <option value="$PROJECT_DIR$/IntegrationSpider/spiders/shanxiTransformResult.py" />
+        <option value="$PROJECT_DIR$/IntegrationSpider/spiders/hefeiLandSupply.py" />
+        <option value="$PROJECT_DIR$/SpiderTools/OCR.py" />
+        <option value="$PROJECT_DIR$/Logs/requestsTest.py" />
+        <option value="$PROJECT_DIR$/Logs/model4.html" />
+        <option value="$PROJECT_DIR$/Logs/model3.html" />
+        <option value="$PROJECT_DIR$/IntegrationSpider/spiders/shanxiResultNotice.py" />
+        <option value="$PROJECT_DIR$/Logs/IntegrationSpider2020-5-21.log" />
+        <option value="$PROJECT_DIR$/IntegrationSpider/manage.py" />
+        <option value="$PROJECT_DIR$/SpiderTools/tableAnalysis.py" />
+        <option value="$PROJECT_DIR$/IntegrationSpider/spiders/longyanTransformResult.py" />
+        <option value="$PROJECT_DIR$/Logs/model2.html" />
+        <option value="$PROJECT_DIR$/Logs/model1.html" />
+        <option value="$PROJECT_DIR$/Logs/test.py" />
+        <option value="$PROJECT_DIR$/IntegrationSpider/spiders/longyanTransformNotice.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="64" />
+    <option name="width" value="1262" />
+    <option name="height" value="1100" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="IntegrationSpider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IntegrationSpider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IntegrationSpider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IntegrationSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="IntegrationSpider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IntegrationSpider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IntegrationSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="IntegrationSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IntegrationSpider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IntegrationSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="Logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PingAnWorkSpace" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\PingAnWorkSpace\IntegrationSpider\SpiderTools" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="JsEncrypt" type="PythonConfigurationType" factoryName="Python">
+      <module name="IntegrationSpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SpiderTools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SpiderTools/JsEncrypt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="OCR" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="IntegrationSpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SpiderTools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SpiderTools/OCR.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="requestsTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="IntegrationSpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Logs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Logs/requestsTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="sign" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="IntegrationSpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads/sample/python" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/sample/python/sign.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="spider" type="PythonConfigurationType" factoryName="Python">
+      <module name="IntegrationSpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="G:\env\scripenv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IntegrationSpider" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IntegrationSpider/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="tableAnalysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="IntegrationSpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SpiderTools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SpiderTools/tableAnalysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="IntegrationSpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Logs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Logs/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.spider" />
+      <item itemvalue="Python.JsEncrypt" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.tableAnalysis" />
+      <item itemvalue="Python.requestsTest" />
+      <item itemvalue="Python.OCR" />
+      <item itemvalue="Python.sign" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.tableAnalysis" />
+        <item itemvalue="Python.requestsTest" />
+        <item itemvalue="Python.OCR" />
+        <item itemvalue="Python.sign" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="740a270e-625d-44fd-ac70-478f7722dc18" name="Default" comment="" />
+      <created>1585878479028</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585878479028</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5010661" side_tool="true" weight="0.21837838" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.32972974" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.38918918" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.53945947" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1924307" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.51243246" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/supplyLandPlan.py</url>
+          <line>261</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SpiderTools/req_for_wordExcelZip.py</url>
+          <line>185</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/chongQingdealFormula.py</url>
+          <line>353</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/chongQingdealFormula.py</url>
+          <line>212</line>
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/chongQingDealAnnouncement.py</url>
+          <line>216</line>
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/chongQingDealAnnouncement.py</url>
+          <line>390</line>
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/chongQingDealAnnouncement.py</url>
+          <line>167</line>
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/chongQingDealAnnouncement.py</url>
+          <line>181</line>
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/chongQingDealAnnouncement.py</url>
+          <line>220</line>
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/chongQingDealAnnouncement.py</url>
+          <line>289</line>
+          <option name="timeStamp" value="284" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/chongQingDealAnnouncement.py</url>
+          <line>340</line>
+          <option name="timeStamp" value="285" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/chongQingDealAnnouncement.py</url>
+          <line>233</line>
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/chongQingdealFormula.py</url>
+          <line>169</line>
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/chongQingdealFormula.py</url>
+          <line>183</line>
+          <option name="timeStamp" value="289" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/chongQingdealFormula.py</url>
+          <line>184</line>
+          <option name="timeStamp" value="290" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/dealFormula.py</url>
+          <line>208</line>
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/guiZhouTransformNotice.py</url>
+          <line>242</line>
+          <option name="timeStamp" value="303" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/guiZhouTransformNotice.py</url>
+          <line>306</line>
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/guiZhouTransformNotice.py</url>
+          <line>318</line>
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/laSaResultNotice.py</url>
+          <line>253</line>
+          <option name="timeStamp" value="324" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/laSaResultNotice.py</url>
+          <line>166</line>
+          <option name="timeStamp" value="339" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/laSaResultNotice.py</url>
+          <line>185</line>
+          <option name="timeStamp" value="340" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/laSaResultNotice.py</url>
+          <line>162</line>
+          <option name="timeStamp" value="344" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/laSaLandNotice.py</url>
+          <line>196</line>
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Logs/detailParse.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="352" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Logs/detailParse.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="353" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Logs/detailParse.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="355" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/tianJinLandSupplyPlan.py</url>
+          <line>152</line>
+          <option name="timeStamp" value="368" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/tianJinLandSupplyPlan.py</url>
+          <line>204</line>
+          <option name="timeStamp" value="369" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/tianJinLandSupplyPlan.py</url>
+          <line>174</line>
+          <option name="timeStamp" value="370" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/tianJinLandSupplyPlan.py</url>
+          <line>123</line>
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/tianJinTransformResult.py</url>
+          <line>148</line>
+          <option name="timeStamp" value="374" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/tianJinTransformNotice.py</url>
+          <line>162</line>
+          <option name="timeStamp" value="385" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/zhengzhouAppropriateResult.py</url>
+          <line>240</line>
+          <option name="timeStamp" value="457" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/zhengzhouLandAgreementTransformResult.py</url>
+          <line>292</line>
+          <option name="timeStamp" value="458" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/zhengzhouLandAgreementTransformResult.py</url>
+          <line>289</line>
+          <option name="timeStamp" value="459" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/zhengzhouLandAgreementTransformResult.py</url>
+          <line>295</line>
+          <option name="timeStamp" value="460" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/zhengzhouLandAgreementTransformResult.py</url>
+          <line>305</line>
+          <option name="timeStamp" value="461" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/zhengzhouLandAgreementTransformResult.py</url>
+          <line>323</line>
+          <option name="timeStamp" value="462" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/shangHaiTransferResult.py</url>
+          <line>386</line>
+          <option name="timeStamp" value="486" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/shangHaiTransferResult.py</url>
+          <line>249</line>
+          <option name="timeStamp" value="488" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/shanxiTransformNotice.py</url>
+          <line>422</line>
+          <option name="timeStamp" value="513" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/shanxiTransformNotice.py</url>
+          <line>509</line>
+          <option name="timeStamp" value="514" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/shanxiTransformNotice.py</url>
+          <line>246</line>
+          <option name="timeStamp" value="516" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/shanxiTransformNotice.py</url>
+          <line>211</line>
+          <option name="timeStamp" value="519" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/shanxiTransformNotice.py</url>
+          <line>337</line>
+          <option name="timeStamp" value="520" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/shanxiTransformNotice.py</url>
+          <line>117</line>
+          <option name="timeStamp" value="523" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/shanxiTransformResult.py</url>
+          <line>258</line>
+          <option name="timeStamp" value="537" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/shanxiResultNotice.py</url>
+          <line>678</line>
+          <option name="timeStamp" value="551" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/shanxiResultNotice.py</url>
+          <line>681</line>
+          <option name="timeStamp" value="552" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SpiderTools/tableAnalysis.py</url>
+          <line>114</line>
+          <option name="timeStamp" value="559" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SpiderTools/tableAnalysis.py</url>
+          <line>276</line>
+          <option name="timeStamp" value="560" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/longyanTransformNotice.py</url>
+          <line>418</line>
+          <option name="timeStamp" value="568" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/longyanTransformNotice.py</url>
+          <line>116</line>
+          <option name="timeStamp" value="569" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IntegrationSpider/spiders/longyanTransformNotice.py</url>
+          <line>189</line>
+          <option name="timeStamp" value="570" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Logs/test.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="571" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="572" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/IntegrationSpider/spiders/laSaLandNotice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4564">
+          <caret line="201" column="63" lean-forward="true" selection-end-line="397" />
+          <folding>
+            <element signature="e#2812#2994#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntegrationSpider/spiders/laSaResultNotice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2772">
+          <caret line="128" column="37" lean-forward="true" selection-start-line="128" selection-start-column="37" selection-end-line="128" selection-end-column="37" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+            <element signature="e#8947#9495#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/IntegrationSpider2020-5-9.log" />
+    <entry file="file://$PROJECT_DIR$/OperateDB/OpRedis.py" />
+    <entry file="file://G:/env/scripenv/Lib/site-packages/redis/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="489" column="21" lean-forward="true" selection-start-line="489" selection-start-column="17" selection-end-line="489" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="103" selection-start-line="13" selection-start-column="103" selection-end-line="13" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/re.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1530" />
+      </provider>
+    </entry>
+    <entry file="file://G:/env/scripenv/Lib/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="213" column="4" selection-start-line="213" selection-start-column="4" selection-end-line="213" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntegrationSpider/spiders/chongQingDealAnnouncement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900">
+          <caret line="329" column="17" lean-forward="true" selection-start-line="329" selection-start-column="17" selection-end-line="329" selection-end-column="17" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+            <element signature="e#2372#3087#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/IntegrationSpider2020-5-11.log" />
+    <entry file="file://$PROJECT_DIR$/Logs/IntegrationSpider2020-5-13.log" />
+    <entry file="file://$PROJECT_DIR$/IntegrationSpider/spiders/dealFormula.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding>
+            <element signature="e#9876#12663#0" />
+            <element signature="e#14718#15956#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/sample/python/sign.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntegrationSpider/spiders/nanjingLandDetail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1101">
+          <caret line="236" column="38" lean-forward="true" selection-start-line="236" selection-start-column="38" selection-end-line="236" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntegrationSpider/spiders/tianJinTransformResult.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+          <folding>
+            <element signature="e#2235#2430#0" />
+            <element signature="e#2476#2676#0" />
+            <element signature="e#2716#14555#0" />
+            <element signature="e#2867#13781#0" />
+            <element signature="e#14602#15772#0" />
+            <element signature="e#15265#15456#0" />
+            <element signature="e#17520#17911#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntegrationSpider/spiders/tianJinLandSupplyPlan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="163" column="59" selection-start-line="163" selection-start-column="51" selection-end-line="163" selection-end-column="59" />
+          <folding>
+            <element signature="e#2264#2459#0" />
+            <element signature="e#2505#2705#0" />
+            <element signature="e#2745#14582#0" />
+            <element signature="e#2894#13808#0" />
+            <element signature="e#14629#15799#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntegrationSpider/spiders/tianJinTransformNotice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="167" column="18" lean-forward="true" selection-start-line="167" selection-start-column="18" selection-end-line="167" selection-end-column="18" />
+          <folding>
+            <element signature="e#2331#2526#0" />
+            <element signature="e#2572#2772#0" />
+            <element signature="e#2962#13876#0" />
+            <element signature="e#14697#15867#0" />
+            <element signature="e#20454#21246#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntegrationSpider/spiders/guiZhouTransformNotice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="186" column="104" lean-forward="true" selection-start-line="186" selection-start-column="16" selection-end-line="186" selection-end-column="104" />
+          <folding>
+            <element signature="e#12701#17664#0" />
+            <element signature="e#17707#19130#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntegrationSpider/spiders/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/DatashangHaiTransferResultPage.txt" />
+    <entry file="file://$PROJECT_DIR$/IntegrationSpider/spiders/zhengzhouLandTransformResult.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="99" column="31" lean-forward="true" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntegrationSpider/spiders/zhengzhouLandTransformNotice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="98" column="31" lean-forward="true" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntegrationSpider/spiders/zhengzhouLandAgreementTransformResult.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="104" column="31" lean-forward="true" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
+          <folding>
+            <element signature="e#9591#10941#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntegrationSpider/spiders/zhengzhouAppropriateResult.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="104" column="31" lean-forward="true" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
+          <folding>
+            <element signature="e#9642#11412#0" />
+            <element signature="e#9695#10372#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/IntegrationSpider2020-5-15.log" />
+    <entry file="file://$PROJECT_DIR$/IntegrationSpider/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntegrationSpider/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="148" column="21" selection-start-line="148" selection-end-line="148" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/IntegrationSpider2020-5-18.log" />
+    <entry file="file://$PROJECT_DIR$/SpiderTools/Tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="433" column="7" lean-forward="true" selection-start-line="433" selection-start-column="7" selection-end-line="433" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/env/scripenv/Lib/site-packages/bs4/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="e#1629#2428#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpiderTools/OCR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="692">
+          <caret line="88" column="83" selection-start-line="88" selection-start-column="83" selection-end-line="88" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntegrationSpider/spiders/hefeiLandSupply.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-592">
+          <caret line="96" column="31" lean-forward="true" selection-end-line="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/requestsTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="42" column="14" selection-start-line="53" selection-start-column="87" selection-end-line="53" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntegrationSpider/spiders/shangHaiTransferResult.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-870">
+          <caret line="247" column="59" selection-start-line="247" selection-start-column="59" selection-end-line="247" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/model3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="269" column="18" selection-start-line="269" selection-start-column="18" selection-end-line="269" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/model4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="297" column="21" selection-start-line="297" selection-start-column="21" selection-end-line="297" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntegrationSpider/spiders/shanxiResultNotice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="205" column="56" lean-forward="true" selection-start-line="200" selection-start-column="11" selection-end-line="205" selection-end-column="56" />
+          <folding>
+            <element signature="e#9542#12546#0" />
+            <element signature="e#9632#11337#0" />
+            <element signature="e#12746#17115#0" />
+            <element signature="e#14226#16978#0" />
+            <element signature="e#18400#21152#0" />
+            <element signature="e#18482#20019#0" />
+            <element signature="e#22882#26267#0" />
+            <element signature="e#28588#32330#0" />
+            <element signature="e#34262#34370#0" />
+            <element signature="e#34459#37791#0" />
+            <element signature="e#34565#36606#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1641134444/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="518" column="7" lean-forward="true" selection-start-line="518" selection-start-column="7" selection-end-line="518" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/longyanTransformResultPage.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/IntegrationSpider2020-5-21.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="372">
+          <caret line="123" column="172" selection-start-line="123" selection-start-column="66" selection-end-line="123" selection-end-column="172" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/model2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="322" selection-start-line="322" selection-end-line="322" />
+          <folding>
+            <element signature="e#947#955#0" expanded="true" />
+            <element signature="e#955#963#0" expanded="true" />
+            <element signature="e#1347#1351#0" expanded="true" />
+            <element signature="e#1351#1355#0" expanded="true" />
+            <element signature="e#1445#1449#0" expanded="true" />
+            <element signature="e#1449#1453#0" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#b#0;n#p#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#b#0;n#p#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#b#1;n#p#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#3598#3604#1" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#3793#3799#1" expanded="true" />
+            <element signature="n#style#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#4183#4189#0" expanded="true" />
+            <element signature="e#4189#4195#0" expanded="true" />
+            <element signature="e#4195#4201#0" expanded="true" />
+            <element signature="e#4201#4207#0" expanded="true" />
+            <element signature="e#4207#4213#0" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#p#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#u#0;n#p#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#p#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#4591#4597#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#u#1;n#p#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#p#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#4817#4823#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#u#2;n#p#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#4;n#p#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#5036#5042#0" expanded="true" />
+            <element signature="n#style#0;n#span#5;n#p#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#1;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#p#1;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#2;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#2;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#2;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#3;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#3;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#4;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#4;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#5;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#5;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#5;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#0;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#0;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#2;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#2;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#3;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#3;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#4;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#4;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#5;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#5;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#5;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#p#0;n#td#5;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#1;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#1;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#12973#12979#0" expanded="true" />
+            <element signature="e#12979#12985#0" expanded="true" />
+            <element signature="e#12985#12991#0" expanded="true" />
+            <element signature="e#12991#12997#0" expanded="true" />
+            <element signature="e#12997#13003#0" expanded="true" />
+            <element signature="e#13003#13009#0" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#2;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#2;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#3;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#3;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#4;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#4;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#14566#14572#1" expanded="true" />
+            <element signature="n#style#0;n#td#5;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#5;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#5;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#15102#15108#1" expanded="true" />
+            <element signature="n#style#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#1;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#1;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#6;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#6;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#0;n#tr#6;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#0;n#tr#6;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#6;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#1;n#tr#6;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#1;n#tr#6;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#17252#17258#1" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#0;n#tr#0;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#0;n#tr#0;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#1;n#tr#0;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#1;n#tr#0;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#2;n#tr#0;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#2;n#tr#0;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#0;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#3;n#tr#0;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#3;n#tr#0;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#4;n#tr#0;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#4;n#tr#0;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#5;n#tr#0;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#5;n#tr#0;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#5;n#tr#0;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#1;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#0;n#tr#1;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#0;n#tr#1;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#1;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#1;n#tr#1;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#1;n#tr#1;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#1;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#2;n#tr#1;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#2;n#tr#1;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#1;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#3;n#tr#1;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#3;n#tr#1;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#1;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#4;n#tr#1;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#4;n#tr#1;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#5;n#tr#1;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#5;n#tr#1;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#5;n#tr#1;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#p#0;n#td#5;n#tr#1;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#2;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#2;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#0;n#tr#2;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#0;n#tr#2;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#2;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#1;n#tr#2;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#1;n#tr#2;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#25135#25141#0" expanded="true" />
+            <element signature="e#25141#25147#0" expanded="true" />
+            <element signature="e#25147#25153#0" expanded="true" />
+            <element signature="e#25153#25159#0" expanded="true" />
+            <element signature="e#25159#25165#0" expanded="true" />
+            <element signature="e#25165#25171#0" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#2;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#2;n#tr#2;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#2;n#tr#2;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#2;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#3;n#tr#2;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#3;n#tr#2;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#2;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#4;n#tr#2;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#4;n#tr#2;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#26754#26760#1" expanded="true" />
+            <element signature="n#style#0;n#td#5;n#tr#2;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#5;n#tr#2;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#5;n#tr#2;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#27288#27294#1" expanded="true" />
+            <element signature="n#style#0;n#tr#3;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#3;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#0;n#tr#3;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#0;n#tr#3;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#3;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#1;n#tr#3;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#1;n#tr#3;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#4;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#4;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#0;n#tr#4;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#0;n#tr#4;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#4;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#1;n#tr#4;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#29382#29388#1" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#4;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#2;n#tr#4;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#29823#29829#1" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#4;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#3;n#tr#4;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#30268#30274#1" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#4;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#4;n#tr#4;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#30709#30715#1" expanded="true" />
+            <element signature="n#style#0;n#td#5;n#tr#4;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#5;n#tr#4;n#tbody#0;n#table#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#31154#31160#1" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#31328#31334#1" expanded="true" />
+            <element signature="n#style#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#1;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#2;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#p#2;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#p#2;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#32487#32493#0" expanded="true" />
+            <element signature="e#32493#32499#0" expanded="true" />
+            <element signature="e#32499#32505#0" expanded="true" />
+            <element signature="e#32505#32511#0" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#p#2;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#4;n#p#2;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#5;n#p#2;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#32758#32764#0" expanded="true" />
+            <element signature="e#32764#32770#0" expanded="true" />
+            <element signature="e#32770#32776#0" expanded="true" />
+            <element signature="e#32776#32782#0" expanded="true" />
+            <element signature="n#style#0;n#span#6;n#p#2;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#7;n#p#2;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#8;n#p#2;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#33030#33036#0" expanded="true" />
+            <element signature="e#33036#33042#0" expanded="true" />
+            <element signature="e#33042#33048#0" expanded="true" />
+            <element signature="e#33048#33054#0" expanded="true" />
+            <element signature="n#style#0;n#span#9;n#p#2;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#10;n#p#2;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#11;n#p#2;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#33298#33304#0" expanded="true" />
+            <element signature="e#33304#33310#0" expanded="true" />
+            <element signature="e#33310#33316#0" expanded="true" />
+            <element signature="e#33316#33322#0" expanded="true" />
+            <element signature="n#style#0;n#span#12;n#p#2;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#13;n#p#2;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#14;n#p#2;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#33572#33578#0" expanded="true" />
+            <element signature="e#33578#33584#0" expanded="true" />
+            <element signature="e#33584#33590#0" expanded="true" />
+            <element signature="e#33590#33596#0" expanded="true" />
+            <element signature="n#style#0;n#span#15;n#p#2;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#16;n#p#2;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#17;n#p#2;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#33838#33844#0" expanded="true" />
+            <element signature="e#33844#33850#0" expanded="true" />
+            <element signature="e#33850#33856#0" expanded="true" />
+            <element signature="e#33856#33862#0" expanded="true" />
+            <element signature="n#style#0;n#span#18;n#p#2;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#1;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#0;n#tr#1;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#0;n#tr#1;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#p#0;n#td#0;n#tr#1;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#p#0;n#td#0;n#tr#1;n#tbody#0;n#table#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#34686#34692#1" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#3;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#4;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/model1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="962">
+          <caret line="284" selection-start-line="284" selection-end-line="284" />
+          <folding>
+            <element signature="e#947#955#0" expanded="true" />
+            <element signature="e#955#963#0" expanded="true" />
+            <element signature="e#1347#1351#0" expanded="true" />
+            <element signature="e#1351#1355#0" expanded="true" />
+            <element signature="e#1445#1449#0" expanded="true" />
+            <element signature="e#1449#1453#0" expanded="true" />
+            <element signature="e#2566#2703#0" expanded="true" />
+            <element signature="e#2728#2768#0" expanded="true" />
+            <element signature="e#2809#2965#0" expanded="true" />
+            <element signature="e#2987#3027#0" expanded="true" />
+            <element signature="e#3046#3069#0" expanded="true" />
+            <element signature="e#3091#3131#0" expanded="true" />
+            <element signature="e#3148#3305#0" expanded="true" />
+            <element signature="e#3306#3312#1" expanded="true" />
+            <element signature="e#3320#3496#0" expanded="true" />
+            <element signature="e#3503#3543#0" expanded="true" />
+            <element signature="e#3642#3665#0" expanded="true" />
+            <element signature="e#3683#3723#0" expanded="true" />
+            <element signature="e#3738#3761#0" expanded="true" />
+            <element signature="e#3777#3817#0" expanded="true" />
+            <element signature="e#3832#3855#0" expanded="true" />
+            <element signature="e#3871#3911#0" expanded="true" />
+            <element signature="e#3926#3966#0" expanded="true" />
+            <element signature="e#3981#4004#0" expanded="true" />
+            <element signature="e#4022#4062#0" expanded="true" />
+            <element signature="e#4077#4100#0" expanded="true" />
+            <element signature="e#4116#4156#0" expanded="true" />
+            <element signature="e#4171#4194#0" expanded="true" />
+            <element signature="e#4210#4250#0" expanded="true" />
+            <element signature="e#4265#4305#0" expanded="true" />
+            <element signature="e#4323#4346#0" expanded="true" />
+            <element signature="e#4361#4401#0" expanded="true" />
+            <element signature="e#4437#4594#0" expanded="true" />
+            <element signature="e#4601#4641#0" expanded="true" />
+            <element signature="e#4663#4686#0" expanded="true" />
+            <element signature="e#4707#4778#0" expanded="true" />
+            <element signature="e#4853#4876#0" expanded="true" />
+            <element signature="e#4888#5170#0" expanded="true" />
+            <element signature="e#5192#5329#0" expanded="true" />
+            <element signature="e#5351#5391#0" expanded="true" />
+            <element signature="e#5430#5700#0" expanded="true" />
+            <element signature="e#5722#5859#0" expanded="true" />
+            <element signature="e#5881#5904#0" expanded="true" />
+            <element signature="e#5922#5962#0" expanded="true" />
+            <element signature="e#5977#6000#0" expanded="true" />
+            <element signature="e#6016#6056#0" expanded="true" />
+            <element signature="e#6092#6362#0" expanded="true" />
+            <element signature="e#6384#6521#0" expanded="true" />
+            <element signature="e#6543#6583#0" expanded="true" />
+            <element signature="e#6622#6893#0" expanded="true" />
+            <element signature="e#6916#7053#0" expanded="true" />
+            <element signature="e#7075#7115#0" expanded="true" />
+            <element signature="e#7162#7432#0" expanded="true" />
+            <element signature="e#7454#7591#0" expanded="true" />
+            <element signature="e#7613#7653#0" expanded="true" />
+            <element signature="e#7692#7962#0" expanded="true" />
+            <element signature="e#7984#8121#0" expanded="true" />
+            <element signature="e#8143#8183#0" expanded="true" />
+            <element signature="e#8231#8251#0" expanded="true" />
+            <element signature="e#8263#8533#0" expanded="true" />
+            <element signature="e#8555#8692#0" expanded="true" />
+            <element signature="e#8714#8754#0" expanded="true" />
+            <element signature="e#8772#8795#0" expanded="true" />
+            <element signature="e#8810#8850#0" expanded="true" />
+            <element signature="e#8866#8889#0" expanded="true" />
+            <element signature="e#8925#9183#0" expanded="true" />
+            <element signature="e#9205#9342#0" expanded="true" />
+            <element signature="e#9364#9387#0" expanded="true" />
+            <element signature="e#9428#9686#0" expanded="true" />
+            <element signature="e#9708#9845#0" expanded="true" />
+            <element signature="e#9867#9907#0" expanded="true" />
+            <element signature="e#9946#10205#0" expanded="true" />
+            <element signature="e#10228#10365#0" expanded="true" />
+            <element signature="e#10387#10410#0" expanded="true" />
+            <element signature="e#10426#10466#0" expanded="true" />
+            <element signature="e#10502#10760#0" expanded="true" />
+            <element signature="e#10782#10919#0" expanded="true" />
+            <element signature="e#10941#10981#0" expanded="true" />
+            <element signature="e#10998#11021#0" expanded="true" />
+            <element signature="e#11036#11076#0" expanded="true" />
+            <element signature="e#11092#11115#0" expanded="true" />
+            <element signature="e#11151#11409#0" expanded="true" />
+            <element signature="e#11431#11568#0" expanded="true" />
+            <element signature="e#11590#11613#0" expanded="true" />
+            <element signature="e#11660#11682#0" expanded="true" />
+            <element signature="e#11694#11966#0" expanded="true" />
+            <element signature="e#11988#12125#0" expanded="true" />
+            <element signature="e#12147#12187#0" expanded="true" />
+            <element signature="e#12226#12482#0" expanded="true" />
+            <element signature="e#12517#12654#0" expanded="true" />
+            <element signature="e#12676#12716#0" expanded="true" />
+            <element signature="e#12764#13024#0" expanded="true" />
+            <element signature="e#13046#13183#0" expanded="true" />
+            <element signature="e#13205#13245#0" expanded="true" />
+            <element signature="e#13284#13544#0" expanded="true" />
+            <element signature="e#13566#13703#0" expanded="true" />
+            <element signature="e#13725#13765#0" expanded="true" />
+            <element signature="e#13810#13833#0" expanded="true" />
+            <element signature="e#13845#14118#0" expanded="true" />
+            <element signature="e#14140#14277#0" expanded="true" />
+            <element signature="e#14299#14339#0" expanded="true" />
+            <element signature="e#14377#14639#0" expanded="true" />
+            <element signature="e#14676#14875#0" expanded="true" />
+            <element signature="e#14886#15207#0" expanded="true" />
+            <element signature="e#15223#15229#1" expanded="true" />
+            <element signature="e#15292#15449#0" expanded="true" />
+            <element signature="e#15456#15496#0" expanded="true" />
+            <element signature="e#15516#15539#0" expanded="true" />
+            <element signature="e#15557#15597#0" expanded="true" />
+            <element signature="e#15612#15635#0" expanded="true" />
+            <element signature="e#15651#15691#0" expanded="true" />
+            <element signature="e#15706#15729#0" expanded="true" />
+            <element signature="e#15745#15785#0" expanded="true" />
+            <element signature="e#15800#15840#0" expanded="true" />
+            <element signature="e#15855#15878#0" expanded="true" />
+            <element signature="e#15896#15936#0" expanded="true" />
+            <element signature="e#15951#15974#0" expanded="true" />
+            <element signature="e#15990#16030#0" expanded="true" />
+            <element signature="e#16045#16068#0" expanded="true" />
+            <element signature="e#16084#16124#0" expanded="true" />
+            <element signature="e#16139#16162#0" expanded="true" />
+            <element signature="e#16179#16336#0" expanded="true" />
+            <element signature="e#16343#16383#0" expanded="true" />
+            <element signature="e#16399#16422#0" expanded="true" />
+            <element signature="e#16437#16477#0" expanded="true" />
+            <element signature="e#16506#16529#0" expanded="true" />
+            <element signature="e#16545#16585#0" expanded="true" />
+            <element signature="e#16620#16777#0" expanded="true" />
+            <element signature="e#16784#16824#0" expanded="true" />
+            <element signature="e#16840#16863#0" expanded="true" />
+            <element signature="e#16878#16918#0" expanded="true" />
+            <element signature="e#16938#17114#0" expanded="true" />
+            <element signature="e#17121#17161#0" expanded="true" />
+            <element signature="e#17208#17384#0" expanded="true" />
+            <element signature="e#17391#17431#0" expanded="true" />
+            <element signature="e#17456#17479#0" expanded="true" />
+            <element signature="e#17496#17536#0" expanded="true" />
+            <element signature="e#17561#17737#0" expanded="true" />
+            <element signature="e#17744#17784#0" expanded="true" />
+            <element signature="e#17803#17826#0" expanded="true" />
+            <element signature="e#17848#18024#0" expanded="true" />
+            <element signature="e#18031#18071#0" expanded="true" />
+            <element signature="e#18090#18113#0" expanded="true" />
+            <element signature="e#18141#18317#0" expanded="true" />
+            <element signature="e#18324#18364#0" expanded="true" />
+            <element signature="e#18379#18402#0" expanded="true" />
+            <element signature="e#18417#18457#0" expanded="true" />
+            <element signature="e#18472#18495#0" expanded="true" />
+            <element signature="e#18510#18550#0" expanded="true" />
+            <element signature="e#18575#18751#0" expanded="true" />
+            <element signature="e#18758#18798#0" expanded="true" />
+            <element signature="e#18819#18994#0" expanded="true" />
+            <element signature="e#19016#19056#0" expanded="true" />
+            <element signature="e#19080#19255#0" expanded="true" />
+            <element signature="e#19277#19300#0" expanded="true" />
+            <element signature="e#19318#19358#0" expanded="true" />
+            <element signature="e#19373#19396#0" expanded="true" />
+            <element signature="e#19412#19452#0" expanded="true" />
+            <element signature="e#19467#19490#0" expanded="true" />
+            <element signature="e#19506#19546#0" expanded="true" />
+            <element signature="e#19563#19569#1" expanded="true" />
+            <element signature="e#19585#19722#0" expanded="true" />
+            <element signature="e#19747#19787#0" expanded="true" />
+            <element signature="e#19828#19984#0" expanded="true" />
+            <element signature="e#20006#20046#0" expanded="true" />
+            <element signature="e#20065#20088#0" expanded="true" />
+            <element signature="e#20109#20149#0" expanded="true" />
+            <element signature="e#20166#20323#0" expanded="true" />
+            <element signature="e#20324#20330#1" expanded="true" />
+            <element signature="e#20338#20514#0" expanded="true" />
+            <element signature="e#20521#20561#0" expanded="true" />
+            <element signature="e#20660#20683#0" expanded="true" />
+            <element signature="e#20701#20741#0" expanded="true" />
+            <element signature="e#20756#20779#0" expanded="true" />
+            <element signature="e#20795#20835#0" expanded="true" />
+            <element signature="e#20850#20873#0" expanded="true" />
+            <element signature="e#20889#20929#0" expanded="true" />
+            <element signature="e#20944#20984#0" expanded="true" />
+            <element signature="e#20999#21022#0" expanded="true" />
+            <element signature="e#21040#21080#0" expanded="true" />
+            <element signature="e#21095#21118#0" expanded="true" />
+            <element signature="e#21134#21174#0" expanded="true" />
+            <element signature="e#21189#21212#0" expanded="true" />
+            <element signature="e#21228#21268#0" expanded="true" />
+            <element signature="e#21283#21323#0" expanded="true" />
+            <element signature="e#21341#21364#0" expanded="true" />
+            <element signature="e#21379#21419#0" expanded="true" />
+            <element signature="e#21455#21612#0" expanded="true" />
+            <element signature="e#21619#21659#0" expanded="true" />
+            <element signature="e#21681#21704#0" expanded="true" />
+            <element signature="e#21729#21800#0" expanded="true" />
+            <element signature="e#21875#21898#0" expanded="true" />
+            <element signature="e#21910#22192#0" expanded="true" />
+            <element signature="e#22214#22351#0" expanded="true" />
+            <element signature="e#22373#22413#0" expanded="true" />
+            <element signature="e#22452#22722#0" expanded="true" />
+            <element signature="e#22744#22881#0" expanded="true" />
+            <element signature="e#22903#22926#0" expanded="true" />
+            <element signature="e#22944#22984#0" expanded="true" />
+            <element signature="e#22999#23022#0" expanded="true" />
+            <element signature="e#23038#23078#0" expanded="true" />
+            <element signature="e#23114#23384#0" expanded="true" />
+            <element signature="e#23406#23543#0" expanded="true" />
+            <element signature="e#23565#23605#0" expanded="true" />
+            <element signature="e#23644#23915#0" expanded="true" />
+            <element signature="e#23938#24075#0" expanded="true" />
+            <element signature="e#24097#24137#0" expanded="true" />
+            <element signature="e#24179#24449#0" expanded="true" />
+            <element signature="e#24471#24608#0" expanded="true" />
+            <element signature="e#24630#24670#0" expanded="true" />
+            <element signature="e#24709#24979#0" expanded="true" />
+            <element signature="e#25001#25138#0" expanded="true" />
+            <element signature="e#25160#25200#0" expanded="true" />
+            <element signature="e#25248#25268#0" expanded="true" />
+            <element signature="e#25280#25550#0" expanded="true" />
+            <element signature="e#25572#25709#0" expanded="true" />
+            <element signature="e#25731#25771#0" expanded="true" />
+            <element signature="e#25789#25812#0" expanded="true" />
+            <element signature="e#25827#25867#0" expanded="true" />
+            <element signature="e#25883#25906#0" expanded="true" />
+            <element signature="e#25942#26200#0" expanded="true" />
+            <element signature="e#26222#26359#0" expanded="true" />
+            <element signature="e#26381#26404#0" expanded="true" />
+            <element signature="e#26445#26703#0" expanded="true" />
+            <element signature="e#26725#26862#0" expanded="true" />
+            <element signature="e#26884#26924#0" expanded="true" />
+            <element signature="e#26963#27222#0" expanded="true" />
+            <element signature="e#27245#27382#0" expanded="true" />
+            <element signature="e#27404#27427#0" expanded="true" />
+            <element signature="e#27443#27483#0" expanded="true" />
+            <element signature="e#27519#27777#0" expanded="true" />
+            <element signature="e#27799#27936#0" expanded="true" />
+            <element signature="e#27958#27998#0" expanded="true" />
+            <element signature="e#28015#28038#0" expanded="true" />
+            <element signature="e#28053#28093#0" expanded="true" />
+            <element signature="e#28109#28132#0" expanded="true" />
+            <element signature="e#28168#28426#0" expanded="true" />
+            <element signature="e#28448#28585#0" expanded="true" />
+            <element signature="e#28607#28630#0" expanded="true" />
+            <element signature="e#28677#28699#0" expanded="true" />
+            <element signature="e#28711#28983#0" expanded="true" />
+            <element signature="e#29005#29142#0" expanded="true" />
+            <element signature="e#29164#29204#0" expanded="true" />
+            <element signature="e#29243#29499#0" expanded="true" />
+            <element signature="e#29534#29671#0" expanded="true" />
+            <element signature="e#29693#29733#0" expanded="true" />
+            <element signature="e#29764#29787#0" expanded="true" />
+            <element signature="e#29788#29794#1" expanded="true" />
+            <element signature="e#29828#30088#0" expanded="true" />
+            <element signature="e#30110#30247#0" expanded="true" />
+            <element signature="e#30269#30309#0" expanded="true" />
+            <element signature="e#30348#30608#0" expanded="true" />
+            <element signature="e#30630#30767#0" expanded="true" />
+            <element signature="e#30789#30829#0" expanded="true" />
+            <element signature="e#30874#30897#0" expanded="true" />
+            <element signature="e#30909#31182#0" expanded="true" />
+            <element signature="e#31204#31341#0" expanded="true" />
+            <element signature="e#31363#31403#0" expanded="true" />
+            <element signature="e#31441#31703#0" expanded="true" />
+            <element signature="e#31740#31939#0" expanded="true" />
+            <element signature="e#31950#32271#0" expanded="true" />
+            <element signature="e#32287#32293#1" expanded="true" />
+            <element signature="e#32361#32518#0" expanded="true" />
+            <element signature="e#32525#32565#0" expanded="true" />
+            <element signature="e#32585#32608#0" expanded="true" />
+            <element signature="e#32626#32666#0" expanded="true" />
+            <element signature="e#32681#32704#0" expanded="true" />
+            <element signature="e#32720#32760#0" expanded="true" />
+            <element signature="e#32775#32798#0" expanded="true" />
+            <element signature="e#32814#32854#0" expanded="true" />
+            <element signature="e#32869#32909#0" expanded="true" />
+            <element signature="e#32924#32947#0" expanded="true" />
+            <element signature="e#32965#33005#0" expanded="true" />
+            <element signature="e#33020#33043#0" expanded="true" />
+            <element signature="e#33059#33099#0" expanded="true" />
+            <element signature="e#33114#33137#0" expanded="true" />
+            <element signature="e#33153#33193#0" expanded="true" />
+            <element signature="e#33208#33231#0" expanded="true" />
+            <element signature="e#33248#33405#0" expanded="true" />
+            <element signature="e#33412#33452#0" expanded="true" />
+            <element signature="e#33468#33491#0" expanded="true" />
+            <element signature="e#33506#33546#0" expanded="true" />
+            <element signature="e#33575#33598#0" expanded="true" />
+            <element signature="e#33614#33654#0" expanded="true" />
+            <element signature="e#33689#33846#0" expanded="true" />
+            <element signature="e#33853#33893#0" expanded="true" />
+            <element signature="e#33909#33932#0" expanded="true" />
+            <element signature="e#33947#33987#0" expanded="true" />
+            <element signature="e#34007#34183#0" expanded="true" />
+            <element signature="e#34190#34230#0" expanded="true" />
+            <element signature="e#34277#34453#0" expanded="true" />
+            <element signature="e#34460#34500#0" expanded="true" />
+            <element signature="e#34525#34548#0" expanded="true" />
+            <element signature="e#34565#34605#0" expanded="true" />
+            <element signature="e#34630#34806#0" expanded="true" />
+            <element signature="e#34813#34853#0" expanded="true" />
+            <element signature="e#34872#34895#0" expanded="true" />
+            <element signature="e#34917#35093#0" expanded="true" />
+            <element signature="e#35100#35140#0" expanded="true" />
+            <element signature="e#35159#35182#0" expanded="true" />
+            <element signature="e#35210#35386#0" expanded="true" />
+            <element signature="e#35393#35433#0" expanded="true" />
+            <element signature="e#35448#35471#0" expanded="true" />
+            <element signature="e#35486#35526#0" expanded="true" />
+            <element signature="e#35541#35564#0" expanded="true" />
+            <element signature="e#35579#35619#0" expanded="true" />
+            <element signature="e#35644#35820#0" expanded="true" />
+            <element signature="e#35827#35867#0" expanded="true" />
+            <element signature="e#35888#36063#0" expanded="true" />
+            <element signature="e#36085#36125#0" expanded="true" />
+            <element signature="e#36149#36324#0" expanded="true" />
+            <element signature="e#36346#36369#0" expanded="true" />
+            <element signature="e#36387#36427#0" expanded="true" />
+            <element signature="e#36442#36465#0" expanded="true" />
+            <element signature="e#36481#36521#0" expanded="true" />
+            <element signature="e#36536#36559#0" expanded="true" />
+            <element signature="e#36575#36615#0" expanded="true" />
+            <element signature="e#36632#36638#1" expanded="true" />
+            <element signature="e#36646#36652#1" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#3;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#4;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntegrationSpider/spiders/shanxiTransformResult.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="342" column="69" selection-start-line="342" selection-start-column="69" selection-end-line="342" selection-end-column="69" />
+          <folding>
+            <element signature="e#7620#11522#0" />
+            <element signature="e#9024#11522#0" />
+            <element signature="e#10341#11215#0" />
+            <element signature="e#11643#15360#0" />
+            <element signature="e#12862#15360#0" />
+            <element signature="e#12971#14035#0" />
+            <element signature="e#14179#15053#0" />
+            <element signature="e#15498#15608#0" />
+            <element signature="e#17289#18265#0" />
+            <element signature="e#19385#22610#0" />
+            <element signature="e#23717#24605#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntegrationSpider/spiders/shanxiTransformNotice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#9029#9604#0" />
+            <element signature="e#9649#10474#0" />
+            <element signature="e#10721#11645#0" />
+            <element signature="e#11789#16272#0" />
+            <element signature="e#13660#16127#0" />
+            <element signature="e#13764#14972#0" />
+            <element signature="e#16465#20902#0" />
+            <element signature="e#22913#23013#0" />
+            <element signature="e#23086#25553#0" />
+            <element signature="e#25799#31642#0" />
+            <element signature="e#32047#35491#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntegrationSpider/spiders/longyanTransformResult.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="427" selection-start-line="427" selection-end-line="427" />
+          <folding>
+            <element signature="e#2943#3138#0" />
+            <element signature="e#3184#3384#0" />
+            <element signature="e#7883#12806#0" />
+            <element signature="e#9249#9365#0" />
+            <element signature="e#9470#12629#0" />
+            <element signature="e#9592#11178#0" />
+            <element signature="e#11346#12282#0" />
+            <element signature="e#9246#14185#0" />
+            <element signature="e#10849#14008#0" />
+            <element signature="e#10971#12557#0" />
+            <element signature="e#12725#13661#0" />
+            <element signature="e#16150#19338#0" />
+            <element signature="e#10629#13885#0" />
+            <element signature="e#10713#12814#0" />
+            <element signature="e#12922#13638#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntegrationSpider/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpiderTools/tableAnalysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="262" column="7" selection-start-line="262" selection-start-column="7" selection-end-line="262" selection-end-column="7" />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+            <element signature="e#470#2275#0" />
+            <element signature="e#5149#6167#0" />
+            <element signature="e#9502#9804#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntegrationSpider/spiders/longyanTransformNotice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="642" column="33" lean-forward="true" selection-start-line="642" selection-start-column="33" selection-end-line="642" selection-end-column="33" />
+          <folding>
+            <element signature="e#9523#11359#0" />
+            <element signature="e#14627#18655#0" />
+            <element signature="e#23414#27489#0" />
+            <element signature="e#30730#33279#0" />
+            <element signature="e#33411#34215#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
