@@ -277,7 +277,7 @@ twilio==6.17.0
 Twisted==18.7.0
 typing-extensions==3.7.2
 tzlocal==1.5.1
-urllib3==1.22
+urllib3==1.26.5
 urwid==2.0.1
 vine==1.1.4
 w3lib==1.19.0
