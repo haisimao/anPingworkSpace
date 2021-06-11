@@ -283,7 +283,7 @@ vine==1.1.4
 w3lib==1.19.0
 wcwidth==0.1.7
 webencodings==0.5.1
-websockets==7.0
+websockets==9.1
 wechatsogou==4.5.4
 Werkzeug==0.14.1
 widgetsnbextension==3.2.1
