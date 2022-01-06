@@ -34,7 +34,7 @@ Bottleneck==1.2.1
 brotlipy==0.7.0
 bs4==0.0.1
 bz2file==0.98
-celery==4.2.1
+celery==5.2.2
 certifi==2018.4.16
 cffi==1.11.5
 chardet==3.0.4
