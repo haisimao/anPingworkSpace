@@ -206,7 +206,7 @@ pyppeteer==0.0.25
 pyquery==1.4.0
 pyrsistent==0.14.11
 PySocks==1.6.8
-pyspark==2.4.0
+pyspark==3.2.2
 pytesseract==0.2.6
 pytest==3.5.1
 pytest-arraydiff==0.2
